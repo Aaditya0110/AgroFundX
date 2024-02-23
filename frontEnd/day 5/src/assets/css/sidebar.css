@@ -1,0 +1,116 @@
+.SBar{
+    /* width: 111.5%; */
+    /* background-color: gray; */
+    height: 0px;
+    z-index: 999;
+    position: relative;
+    /* top: 0; */
+    
+}
+
+.side-list{
+    /* width: 1000%; */
+  }
+.S-icon{
+    float: right;
+}
+
+.Scontainer{
+    /* position: absolute; */
+    /* margin-top: 10px; */
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    /* display: none; */
+}
+
+#bar{
+    background-color: rgba(41, 41, 41,1);
+    text-align: center;
+    width: 230px;
+    font-size: 18px;
+}
+
+.sblist{
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.sbitem {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to left, transparent 50%, aliceblue 50%);
+    background-position: 100% 0;
+    background-size: 200% 100%; 
+    transition: background-position 0.2s ease; 
+    border-radius: 20px 0px 0px 20px;
+    color: white;
+}
+
+.sbitem:hover {
+    color: black;
+    cursor: pointer;
+    background-position: 0 0; 
+    /* font-size: 18.5px; */
+}
+
+.stransparency{
+    /* margin-top: 0px; */
+    background-color:rgba(1, 0, 0, 0.85);
+    height: 100vh;
+    width: 100%;
+    cursor:pointer;
+}
+
+.toggle-bttn{
+    cursor:pointer;
+}
+
+.toggle-bttn2{
+    color: white;
+    padding-left: 0px;
+    cursor:pointer;
+    /* margin-left: 80px; */
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    /* background-image: linear-gradient(to left, transparent 50%, aliceblue 50%); */
+    transition: background-position 0.2s ease; 
+}
+
+.toggle-bttn2:hover{
+    background-color: white;
+    color: black;
+    background-position: 0 0; 
+}
+
+il{
+    margin-botom: 1px;
+}
+
+.sd-icon{
+    fontSize:"small"
+}
+
+/* sidebar.css */
+
+.sidebar-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar-item {
+    display: flex; /* Display items as flex containers */
+    align-items: center; /* Vertically center items */
+  }
+  
+  .sidebar-icon {
+    margin-right: 8px; /* Add some spacing between the icon and text */
+  }
+  
+  .sidebar-text {
+    font-size: 18px; /* Adjust font size as needed */
+  }
+  
