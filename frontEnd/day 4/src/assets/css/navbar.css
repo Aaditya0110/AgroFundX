@@ -1,0 +1,93 @@
+
+
+.navbar {
+  background-color:rgb(7, 15, 43);
+  color: #fff;
+  padding: 10px;
+  max-width: 1700px;
+}
+/* 
+.Sidebar{
+  margin-top: 10px;
+} */
+
+.navItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* color: white; */
+}
+
+.logo h1 {
+  margin: 0;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px;
+  cursor: pointer;
+  /* color: white; */
+}
+
+.nav-menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.h-profile {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: #333;
+  color: #fff;
+  display: none;
+}
+
+.hprofile-list {
+  list-style: none;
+  padding: 0;
+}
+
+.hp-item {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.h-profile {
+  display: none;
+  background-color: #a2a2a2; 
+  border-radius: 10px;
+  margin-right: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  min-width: 150px;
+  z-index: 1;
+  color: black;
+}
+
+.hprofile-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hp-item {
+  display: block;
+  /* width: 100%; */
+  padding: 10px;
+  text-align: center;
+  border: none;
+  background-color: transparent; /* Transparent background for buttons */
+  cursor: pointer;
+  background-color: #007bff;
+  margin: 4px;
+  border-radius: 10px;
+}
+
+.hp-item:hover {
+  background-color: #f1f1f1; /* Background color on hover */
+}

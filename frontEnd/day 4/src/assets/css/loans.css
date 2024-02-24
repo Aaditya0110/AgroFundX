@@ -1,0 +1,23 @@
+.Loan-body {
+  background-image: url('../images/rice-bg.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  min-height: 100vh;
+}
+
+.Loan-container {
+  padding: 20px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.LoanInfo {
+  width: 45%; 
+  margin-bottom: 20px;
+}
