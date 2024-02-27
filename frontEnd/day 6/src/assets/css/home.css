@@ -1,0 +1,126 @@
+.home-body{
+    /* background: #c9ccd1;  */
+    top: 0;
+    left: 0;;
+    height: 100%;
+    /* position: fixed; */
+    z-index: 9999;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+.home{
+  margin: 20px;
+  background-color: white;
+  /* padding: 5px; */
+  border-radius: 10px;
+  margin-top: 830px;
+}
+
+.home-f{
+  z-index: 0;
+  position: fixed;
+}
+
+.as{
+  background-image: url('../images/rice-bg.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  top: 0;
+  z-index: -1;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  position: fixed;
+}
+
+.static-body{
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 70%;
+  min-height: 50vh;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 30px;
+  color: whitesmoke;
+  font-size: 80px;
+}
+
+.static-body.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    
+}
+
+.home-content{
+  /* margin: 15px; */
+  max-width: 100%;
+    z-index: -1;
+    /* display: flex; */
+  }
+
+  .nav-side{
+    display: none;
+}
+
+.side-button{
+      cursor: pointer;
+
+  }
+
+  .g-info {
+    display: flex;
+    /* flex-wrap: wrap;  */
+    justify-content: space-between;
+    padding: 0px 15px 0px 15px;
+  background-color:rgb(146, 144, 195);
+    /* margin: 10px; */
+  }
+  
+  .info-item {
+    width: 45%; 
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  @media (max-width: 768px) {
+    .info-item {
+      width: 100%;
+    }
+  }
+
+  /* .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+  .navbar.home{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+  } */
