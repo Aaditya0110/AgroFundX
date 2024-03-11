@@ -1,0 +1,125 @@
+.uDash-body{
+    /* background-color: blueviolet; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* position: fixed; */
+    z-index: 9999;
+    /* margin-top: 20px; */
+    
+}
+
+  .uDash-container{
+    /* border-radius: 10px;
+    margin: 20px; */
+    background-color:rgb(83, 92, 145);
+    top: 0;
+    left: 0;
+    /* max-height: 200vh; */
+    /* position: fixed; */
+    /* padding: 20px; */
+    z-index: 9999;
+    /* width: 97%; */
+    padding-bottom: 10px;
+    
+  }
+
+  .uDash-content1{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 0.21fr 0.79fr;
+}
+
+.credit-meter{
+    border-radius: 10px;
+    /* width: 20%; */
+    max-width: 300px;
+    /* height: ; */
+    max-height: 260px;
+    background-color: white;
+    /* position: fixed; */
+    
+    padding: 0px 10px 10px 10px;
+}
+
+.c-meter{
+    
+}
+
+.dash-titles{
+      /* padding: 10px; */
+    /* font-size: 19px; */
+    padding: 0px 10px 13px 10px;
+  }
+
+  .dashboard-summary{
+    background-color: white;
+    padding: 0px 10px 10px 10px;
+    border-radius: 10px;
+    max-width: 1300px;
+  }
+
+  .summary-value{
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    font-weight: normal;
+  }
+  .summary-label{
+    font-size: 18px;
+    /* font-style: b; */
+    /* margin-right: 20px; */
+    font-weight: bold;
+  }
+
+  .dash-container2{
+    /* background-color: white; */
+    /* margin: 10px; */
+    display: grid;
+    grid-template-columns: 0.1fr 0.3fr 0.7fr;
+    /* top: 0;
+    left: 0;
+    max-height: 200vh;
+    z-index: 9999;
+    display: flex; */
+    /* position: fixed; */
+    /* padding: 20px; */
+  }
+
+  .dash-visual{
+    background-color: white;
+    max-width: 550px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 0px 10px 10px 10px;
+  }
+  
+  .upcoming-payment{
+    background-color: white;
+    max-width: 500px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 0px 10px 10px 10px;
+    font-size: 18px;
+  }
+
+  .loan-bar{
+    background-color: white;
+    max-width: 760px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+    padding: 1px 10px 10px 10px;
+  }
+
+  .dash-container3{
+    background-color: white;
+    max-width: 1650px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+    /* z-index: 9999; */
+    /* position: relative; */
+    /* position: fixed; */
+    padding: 1px 10px 10px 10px;
+    /* margin-bottom: 10px; */
+  }
